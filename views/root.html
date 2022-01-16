@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+    table {
+      width: 50%;
+    }
+    td {
+      text-align: center;
+    }
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+      font-size: 20px;
+    }
+    li {
+      font-size: 20px;
+    }
+    body {
+      background-color: rgb(227, 235, 241);
+    }
+  </style>
+  <body>
+    <h1 style="text-align: center">Welcome to PG Connect API !!!</h1>
+    <h3>
+      Welcome to version 1 of The PG Connect Database API , a public service API
+      all about fictional rooms , users , owners , reviews etc free to use when
+      making your fancy new App, Website or Service. Below you will find a
+      current list of the available options .
+    </h3>
+    <ul>
+      <li>
+        Get all fictional rooms present on our database along with all the
+        details
+      </li>
+      <li>
+        Filter/Sort rooms based on various parameters such price , review ,
+        ratings etc
+      </li>
+      <li>Get the details of a specific room</li>
+      <li>Register yourself as a user/owner</li>
+      <li>Add/Update/Delete rooms if you registered as an owner</li>
+      <li>Write reviews and give ratings for the rooms</li>
+      <li>Reset your password if you forget your login credentials</li>
+    </ul>
+    <h2>
+      Read the entire documentation from
+      <a href="https://documenter.getpostman.com/view/14524684/UVXjKGQw"
+        >here</a
+      >
+    </h2>
+    <div style="overflow-x: auto">
+      <table>
+        <tr>
+          <th>Variables</th>
+          <th>Values</th>
+        </tr>
+        <tr>
+          <td>{{URL}}</td>
+          <td>https://pg-connect.herokuapp.com</td>
+        </tr>
+        <tr>
+          <td>{{roomId}}</td>
+          <td>Id of the room that you want to search/delete/update</td>
+        </tr>
+        <tr>
+          <td>{{jwt_owner}}</td>
+          <td>JSON Web token that you get once you are logged in</td>
+        </tr>
+        <tr>
+          <td>{{userId}}</td>
+          <td>Id of the user that you want to search/delete/update</td>
+        </tr>
+        <tr>
+          <td>{{user_email}}</td>
+          <td>Registered email account of the user</td>
+        </tr>
+        <tr>
+          <td>{{owner_email}}</td>
+          <td>Registered email account of the owner</td>
+        </tr>
+        <tr>
+          <td>{{reset_password_token}}</td>
+          <td>
+            Reset password token that you get via mail once you forget your
+            credentials
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

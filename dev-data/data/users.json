@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Eliana Stout",
+    "email": "eliana@example.com",
+    "role": "owner",
+    "active": true,
+    "photo": "user-8.jpg",
+    "password": "abcd1234",
+    "passwordConfirm": "abcd1234"
+  },
+  {
+    "name": "Cristian Vega",
+    "email": "chris@example.com",
+    "role": "owner",
+    "active": true,
+    "photo": "user-9.jpg",
+    "password": "shiv2002",
+    "passwordConfirm": "shiv2002"
+  },
+  {
+    "name": "Steve T. Scaife",
+    "email": "steve@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-10.jpg",
+    "password": "hello1234",
+    "passwordConfirm": "hello1234"
+  },
+  {
+    "name": "Aarav Lynn",
+    "email": "aarav_admin@example.com",
+    "role": "admin",
+    "active": true,
+    "photo": "user-11.jpg",
+    "password": "abcdqwerty12345",
+    "passwordConfirm": "abcdqwerty12345"
+  },
+  {
+    "name": "Miyah Myles",
+    "email": "miyah@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-12.jpg",
+    "password": "abcdefghijklmnopqrstuv",
+    "passwordConfirm": "abcdefghijklmnopqrstuv"
+  },
+  {
+    "name": "Ben Hadley",
+    "email": "ben@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-13.jpg",
+    "password": "justinbeiber",
+    "passwordConfirm": "justinbeiber"
+  },
+  {
+    "name": "Laura Wilson",
+    "email": "laura@example.com",
+    "role": "owner",
+    "active": true,
+    "photo": "user-14.jpg",
+    "password": "iusdfbivabv",
+    "passwordConfirm": "iusdfbivabv"
+  },
+  {
+    "name": "Max Smith",
+    "email": "max@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-15.jpg",
+    "password": "9734347n2375ncniue",
+    "passwordConfirm": "9734347n2375ncniue"
+  },
+  {
+    "name": "Isabel Kirkland",
+    "email": "isabel@example.com",
+    "role": "owner",
+    "active": true,
+    "photo": "user-16.jpg",
+    "password": "asjhfsfhsjfhs",
+    "passwordConfirm": "asjhfsfhsjfhs"
+  },
+  {
+    "name": "Alexander Jones",
+    "email": "alex@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-17.jpg",
+    "password": "1234jhnpijl",
+    "passwordConfirm": "1234jhnpijl"
+  },
+  {
+    "name": "Eduardo Hernandez",
+    "email": "edu@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-18.jpg",
+    "password": "qwerty12345",
+    "passwordConfirm": "qwerty12345"
+  },
+  {
+    "name": "John Riley",
+    "email": "john@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-19.jpg",
+    "password": "aaaaaaaaaabbbbbbbbb",
+    "passwordConfirm": "aaaaaaaaaabbbbbbbbb"
+  },
+  {
+    "name": "Richard Dawkins",
+    "email": "dawkins@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-19.jpg",
+    "password": "aaaaaaaaaabbbbbbbbb",
+    "passwordConfirm": "aaaaaaaaaabbbbbbbbb"
+  },
+  {
+    "name": "Tom Smith",
+    "email": "smith@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-19.jpg",
+    "password": "aaaaaaaaaabbbbbbbbb",
+    "passwordConfirm": "aaaaaaaaaabbbbbbbbb"
+  },
+  {
+    "name": "John Riley",
+    "email": "riley@example.com",
+    "role": "owner",
+    "active": true,
+    "photo": "user-19.jpg",
+    "password": "aaaaaaaaaabbbbbbbbb",
+    "passwordConfirm": "aaaaaaaaaabbbbbbbbb"
+  },
+  {
+    "name": "Testowner1234",
+    "email": "test@gmail.com",
+    "role": "owner",
+    "active": true,
+    "photo": "user-19.jpg",
+    "password": "test-owner1234",
+    "passwordConfirm": "test-owner1234"
+  },
+  {
+    "name": "Testuser1234",
+    "email": "test2@gmail.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-19.jpg",
+    "password": "test-user1234",
+    "passwordConfirm": "test-user1234"
+  }
+]
